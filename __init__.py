@@ -1,4 +1,4 @@
 """
 Import the classes Tournament, Match, and Participant.
 """
-from .single_elimination import Tournament, Match, Participant
+from .round_robin_tournament import Tournament, Match, Participant

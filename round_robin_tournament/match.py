@@ -3,7 +3,7 @@ A match represents a single match in a tournament, between 2 participants.
 It adds empty participants as placeholders for the winner and loser,
 so they can be accessed as individual object pointers.
 """
-from single_elimination.participant import Participant
+from round_robin_tournament.participant import Participant
 
 class Match:
     """
