@@ -48,8 +48,7 @@ class Tournament:
         """
         Given the string or object of the competitor that was supplied
         when creating the tournament instance,
-        returns a Match that they are currently playing in,
-        or None if they are not up to play.
+        returns a list of Match's that they are currently playing in.
         """
         return [match for match in self.get_active_matches() if competitor in _get_match_competitors(match)]
 
